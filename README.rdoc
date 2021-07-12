@@ -2,6 +2,8 @@
 
 A real pastebin plugin for Redmine.
 
+This has been updated to work with Redmine 4.2.1.
+
 For Redmine versions prior to 2.x, check out the pre-2.x branch.
 
 = Installation Notes
