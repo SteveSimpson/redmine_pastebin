@@ -1,4 +1,4 @@
-class AddPasteExpiration < ActiveRecord::Migration
+class AddPasteExpiration < ActiveRecord::Migrationi[4.2]
   def self.up
     add_column :pastes, :expires_at, :datetime
   end

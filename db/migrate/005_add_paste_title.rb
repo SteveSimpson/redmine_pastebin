@@ -1,4 +1,4 @@
-class AddPasteTitle < ActiveRecord::Migration
+class AddPasteTitle < ActiveRecord::Migration[4.2]
   def self.up
     add_column :pastes, :title, :string
   end

@@ -1,4 +1,4 @@
-class RenamePasteTimestamps < ActiveRecord::Migration
+class RenamePasteTimestamps < ActiveRecord::Migration[4.2]
   def self.up
     rename_column :pastes, :created_at, :created_on
     rename_column :pastes, :updated_at, :updated_on

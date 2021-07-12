@@ -1,4 +1,4 @@
-class CreatePastes < ActiveRecord::Migration
+class CreatePastes < ActiveRecord::Migration[4.2]
   def self.up
     create_table :pastes do |t|
       t.column :text, :text

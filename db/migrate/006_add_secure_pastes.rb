@@ -1,4 +1,4 @@
-class AddSecurePastes < ActiveRecord::Migration
+class AddSecurePastes < ActiveRecord::Migrationi[4.2]
   def self.up
     add_column :pastes, :access_token, :text
   end
